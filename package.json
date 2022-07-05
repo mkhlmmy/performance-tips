@@ -1,0 +1,15 @@
+{
+  "name": "performance-tips",
+  "version": "0.0.0",
+  "description": "Performance Tips",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Performance",
+    "Core Web Vitals"
+  ],
+  "author": "Mikhail Mamayeu <mamayeu.mikhail@gmail.com>",
+  "license": "ISC"
+}
