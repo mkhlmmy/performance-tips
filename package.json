@@ -1,6 +1,6 @@
 {
   "name": "performance-tips",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Performance Tips",
   "private": true,
   "source": "src/index.html",
