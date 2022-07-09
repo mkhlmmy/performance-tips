@@ -7,3 +7,6 @@ build
 
 # Coverage reports
 coverage
+
+# Cache directories
+.parcel-cache
