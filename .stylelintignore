@@ -1,0 +1,12 @@
+# Dependencies
+node_modules
+
+# Output folders
+dist
+build
+
+# Coverage reports
+coverage
+
+# Cache directories
+.parcel-cache
