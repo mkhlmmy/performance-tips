@@ -1,7 +1,7 @@
 {
   "name": "performance-tips",
   "version": "0.1.0",
-  "description": "Performance Tips",
+  "description": "Optimising your Core Web Vitals has never been easier",
   "private": true,
   "source": "src/index.html",
   "scripts": {
