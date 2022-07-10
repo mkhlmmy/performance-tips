@@ -36,7 +36,7 @@ function App() {
             </p>
           </section>
         </article>
-        {process.env.BUILD_AS === 'img' && (
+        {window.location.hash === '#img' && (
           <img
             src={heroImage}
             alt="Lorem ipsum dolar sit"
@@ -45,7 +45,7 @@ function App() {
             className={styles['hero-image']}
           />
         )}
-        {process.env.BUILD_AS === 'svg-image' && (
+        {window.location.hash === '#svg-image' && (
           <svg
             width="375"
             height="250"
@@ -56,7 +56,7 @@ function App() {
             <image href={heroImage} width="375" height="250" />
           </svg>
         )}
-        {process.env.BUILD_AS === 'video-poster' && (
+        {window.location.hash === '#video-poster' && (
           // eslint-disable-next-line jsx-a11y/media-has-caption
           <video
             poster={heroImage}
@@ -65,7 +65,7 @@ function App() {
             className={styles['hero-image']}
           />
         )}
-        {process.env.BUILD_AS === 'background-image' && (
+        {window.location.hash === '#background-image' && (
           <div className={` ${styles['hero-image-background']}`} />
         )}
       </main>
