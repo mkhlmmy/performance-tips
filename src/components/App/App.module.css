@@ -67,6 +67,11 @@
     max-width: calc(100% - 1.5rem - 375px);
   }
 
+  .hero-image {
+    height: 250px;
+    max-width: 375px;
+  }
+
   .hero-image-background {
     height: 250px;
     padding-top: initial;
