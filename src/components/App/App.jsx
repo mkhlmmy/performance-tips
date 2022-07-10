@@ -1,9 +1,6 @@
 import * as styles from './App.module.css';
 
-const heroImage = new URL(
-  '../../images/hero-image.jpg?width=375&height=250',
-  import.meta.url
-);
+const heroImage = new URL('../../images/hero-image.jpg', import.meta.url);
 
 function App() {
   return (

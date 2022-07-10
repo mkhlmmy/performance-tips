@@ -43,7 +43,7 @@
 }
 
 .hero-image-background {
-  background-image: url('../../images/hero-image.jpg?width=375&height=250');
+  background-image: url('../../images/hero-image.jpg');
   background-size: cover;
   height: auto;
   padding-top: 66.664%;
