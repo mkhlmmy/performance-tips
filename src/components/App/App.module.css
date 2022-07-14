@@ -33,14 +33,6 @@
   width: 100%;
 }
 
-.hero-image-background {
-  background-image: url('../../images/hero-image.jpg');
-  background-size: cover;
-  height: auto;
-  padding-top: 66.664%;
-  width: 100%;
-}
-
 @media screen and (min-width: 768px) {
   .nav-list {
     justify-content: flex-end;
