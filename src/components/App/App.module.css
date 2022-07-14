@@ -1,13 +1,5 @@
-.app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-  justify-content: space-between;
-}
-
 .header,
-.main,
-.footer {
+.main {
   padding: 2rem;
 }
 
@@ -18,7 +10,6 @@
 }
 
 .main {
-  align-items: flex-start;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -39,7 +30,7 @@
 
 .hero-image {
   height: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .hero-image-background {
@@ -50,31 +41,8 @@
   width: 100%;
 }
 
-.footer {
-  text-align: center;
-}
-
 @media screen and (min-width: 768px) {
   .nav-list {
     justify-content: flex-end;
-  }
-
-  .main {
-    flex-direction: row;
-  }
-
-  .article {
-    max-width: calc(100% - 1.5rem - 375px);
-  }
-
-  .hero-image {
-    height: 250px;
-    max-width: 375px;
-  }
-
-  .hero-image-background {
-    height: 250px;
-    padding-top: initial;
-    width: 375px;
   }
 }

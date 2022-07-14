@@ -4,7 +4,7 @@ const heroImage = new URL('../../images/hero-image.jpg', import.meta.url);
 
 function App() {
   return (
-    <div className={styles.app}>
+    <>
       <header className={styles.header}>
         <nav>
           <ul className={styles['nav-list']}>
@@ -17,7 +17,7 @@ function App() {
         </nav>
       </header>
       <main className={styles.main}>
-        <article className={styles.article}>
+        <article>
           <h1 className={styles['primary-heading']}>
             Lorem ipsum dolor sit amet
           </h1>
@@ -63,13 +63,10 @@ function App() {
           />
         )}
         {window.location.hash === '#background-image' && (
-          <div className={` ${styles['hero-image-background']}`} />
+          <div className={styles['hero-image-background']} />
         )}
       </main>
-      <footer className={styles.footer}>
-        <small>Lorem ipsum, dolor sit amet consectetur adipisicing elit</small>
-      </footer>
-    </div>
+    </>
   );
 }
 
