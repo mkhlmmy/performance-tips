@@ -1,7 +1,5 @@
 import * as styles from './App.module.css';
 
-const heroImage = new URL('../../images/hero-image.jpg', import.meta.url);
-
 function App() {
   return (
     <>
@@ -33,38 +31,7 @@ function App() {
             </p>
           </section>
         </article>
-        {window.location.hash === '#img' && (
-          <img
-            src={heroImage}
-            alt="Lorem ipsum dolar sit"
-            width="375"
-            height="250"
-            className={styles['hero-image']}
-          />
-        )}
-        {window.location.hash === '#svg-image' && (
-          <svg
-            width="375"
-            height="250"
-            xmlns="http://www.w3.org/1000/svg"
-            viewBox="0 0 375 250"
-            className={styles['hero-image']}
-          >
-            <image href={heroImage} width="375" height="250" />
-          </svg>
-        )}
-        {window.location.hash === '#video-poster' && (
-          // eslint-disable-next-line jsx-a11y/media-has-caption
-          <video
-            poster={heroImage}
-            width="375"
-            height="250"
-            className={styles['hero-image']}
-          />
-        )}
-        {window.location.hash === '#background-image' && (
-          <div className={styles['hero-image-background']} />
-        )}
+        <div className={styles['hero-image-background']} />
       </main>
     </>
   );

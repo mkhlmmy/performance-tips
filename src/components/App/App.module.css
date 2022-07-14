@@ -28,11 +28,6 @@
   margin-bottom: 1rem;
 }
 
-.hero-image {
-  height: auto;
-  width: 100%;
-}
-
 .hero-image-background {
   background-image: url('../../images/hero-image.jpg');
   background-size: cover;
